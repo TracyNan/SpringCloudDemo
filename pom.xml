@@ -9,8 +9,8 @@
 	</parent>
 	<modules>
 		<module>eureka</module>
-		<module>application</module>
 		<module>userService</module>
+		<module>application</module>
 	</modules>
 
 	<groupId>com.nan.springcloud</groupId>
