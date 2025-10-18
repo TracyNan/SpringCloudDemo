@@ -10,4 +10,7 @@ import java.util.List;
 public interface UserServiceClient {
     @GetMapping("/getUsers")
     List<UserEntity> getUserList();
+
+    @GetMapping("/getUserByName/{name}")
+    UserEntity getUserByName(String name);
 }

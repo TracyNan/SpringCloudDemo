@@ -17,5 +17,6 @@ public class UserEntity {
     String birth;
     String phone;
     String id_no;
+    String password;
 }
 
