@@ -1,16 +1,16 @@
 server:
-  port: 8901  #???
+  port: 8901
 
 spring:
   application:
-    name: discovery-eureka    #??
+    name: discovery-eureka
 
 eureka:
   instance:
-    hostname: localhost   #host??????
+    hostname: localhost
   client:
     registerWithEureka: false
     fetchRegistry: false
-    serviceUrl:   #????
+    serviceUrl:
       defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
 
